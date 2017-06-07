@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <header class="master-head">
+      <h1>TimeMe!</h1>
+      <p>Clock the time you spend on your activities</p>
+    </header>
+    <main>
+      <section id="timers">
+        <span id="global-timer" class="timer timer-large">00:00:00</span>
+        <br>
+        <span id="running-activity">Not Running</span>
+      </section>
+      <br/>
+      <section id="buttons" class"column">
+        <div id="activities-list-area">
+          <!-- 
+          <button class="btn" onclick="clockIn('Default')">
+            Default
+          </button>
+           -->
+        </div>
+        <button class="btn" onclick="clockOut()">Stop</button>
+        <!--button class="btn" onclick="printAllTimers()">Print Timers</button-->
+        <button class="btn" onclick="resetAll()">Reset All</button> 
+      </section>
+      <br><br>
+      <section id="summary" class="column">
+        <div>
+          Totals:
+          <ul id="timers-totals">
+            <!-- <li id="timer-total-"></li> -->
+          </ul>
+        </div>
+        <div>
+          History:
+          <ul id="timers-history">
+          </ul>
+        </div>
+      </section>
+    </main>
+  
+</body>
+</html>
