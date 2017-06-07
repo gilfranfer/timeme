@@ -1,0 +1,54 @@
+body  {
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  padding: .5em;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+main {
+    background-color: #555;
+}
+
+.btn, .btn-activity{
+    display:block;
+    padding: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #17f;
+    border: 1px solid #17f;
+    width: 50%;
+}
+
+.btn-activity:hover, .btn:hover {
+    background-color: #900;
+    border: 1px solid #900;
+}
+
+.btn{
+    background-color: #090;
+    border: 1px solid #090;
+}
+
+.timer {
+    font-weight: bold;
+}
+
+.timer-large{
+    font-size: 3.5em;
+}
